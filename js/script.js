@@ -54,9 +54,9 @@ const tiraIlDado = function() {
     if(numeroRandom1 === numeroRandom2) {
         answerDadi.innerHTML = 'Pareggio!';
     } else if(numeroRandom1 < numeroRandom2) {
-        answerDadi.innerHTML = player2 + ' ha tirato il dado e ha fatto: ' + numeroRandom2 + ' Vince!';
+        answerDadi.innerHTML = player2 + ' ha tirato il dado e ha fatto: ' + numeroRandom2 + '. Vince!';
     } else {
-        answerDadi.innerHTML = player1 + ' ha tirato il dado e ha fatto: ' + numeroRandom1 + ' Vince!';
+        answerDadi.innerHTML = player1 + ' ha tirato il dado e ha fatto: ' + numeroRandom1 + '. Vince!';
     }
 }
 btnDadi.addEventListener('click', tiraIlDado);
