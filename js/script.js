@@ -26,6 +26,7 @@ const action = function() {
     } 
     if(check) {
         answer.innerHTML = `Questa mail è valida! Puoi accedere!`;
+        document.getElementById('go-to-dadi').className = 'd-block container text-center mt-5';
     } else {
         answer.innerHTML = 'Questa mail non è valida! Non puoi accedere!';
     }
