@@ -1,12 +1,52 @@
 :root {
-    --bg: rgb(182, 182, 182);
+    --bg: #EDE4E0;
+    --dark-brown: #665A48;
+    --button: #C8DBBE;
+    --button-hover: #a1af98;
     --white: #ffffff;
+    --black: --black;
 }
 
 body {
     background-color: var(--bg);
+    color: var(--black);
 }
 
 nav {
-    background-color: var(--white);
+    background-color: var(--dark-brown);
 }
+
+.container-form {
+    width: 850px;
+    height: 450px;
+    background-color: var(--dark-brown);
+    border-radius: 15px;
+}
+
+.accedi {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+input {
+    border: 1px solid var(--button-hover);
+    width: 100%;
+    height: 40px;
+}
+
+button {
+    background-color: var(--button);
+    border: 1px solid var(--button-hover);
+}
+
+.btn-dadi {
+    background-color: var(--button);
+    border: 1px solid var(--button-hover);
+}
+
+button:hover, .btn-dadi:hover {
+    background-color: var(--button-hover);
+    transition: 0.3s;
+}
+

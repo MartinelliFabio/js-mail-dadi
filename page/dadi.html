@@ -13,17 +13,29 @@
     <!-- Navbar -->
     <nav class="navbar">
         <div class="container">
-          <a class="navbar-brand fw-bold fs-1" href="#">
+          <a class="navbar-brand fw-bold fs-1 text-white" href="../index.html">
             Mail & Dadi
           </a>
         </div>
     </nav>
 
     <!-- Sezione Dadi -->
-    <div class="container mt-5 pt-5 text-center">
-        <h2>Giochiamo a dadi!</h2>
-        <button class="btnDadi">Tira il Dado!</button>
-        <h3 class="answer-dadi pt-3"></h3>
+    <div class="container mt-5 pt-5 text-center d-flex flex-column align-items-center">
+        <div class="container-form">
+            <h2 class="fs-1 fw-bold pt-3">Giochiamo a dadi!</h2>
+            <button class="btnDadi rounded-4 mt-5 fw-bold fs-5 p-3 px-5">Tira il Dado!</button>
+            <div class="d-flex justify-content-center pt-5">
+                <div class="me-2">
+                    <h4>Giocatore</h4>
+                    <img class="img1" src="../img/dice6.png">
+                </div>
+                <div class="ms-2">
+                    <h4>Computer</h4>
+                    <img class="img2" src="../img/dice6.png">
+                </div>
+            </div>
+            <h3 class="answer-dadi pt-3"></h3>
+        </div>
     </div>
 
 <script src="../js/script.js">

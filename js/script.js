@@ -52,6 +52,12 @@ const tiraIlDado = function() {
     let numeroRandom1 = Math.floor(Math.random() * 6) + 1;
     let numeroRandom2 = Math.floor(Math.random() * 6) + 1;
 
+    document.querySelector(".img1").setAttribute("src",
+        "../img/dice" + numeroRandom1 + ".png");
+
+    document.querySelector(".img2").setAttribute("src",
+        "../img/dice" + numeroRandom2 + ".png");
+
     if(numeroRandom1 === numeroRandom2) {
         answerDadi.innerHTML = 'Pareggio!';
     } else if(numeroRandom1 < numeroRandom2) {
